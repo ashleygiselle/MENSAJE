@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilos.css">
+    <title>MENSAJE</title>
+</head>
+<body>
+    <h1>Cifrado y Descifrado de Comunicaciones</h1>
+    <div id="mensaje-original">
+        <h2>MENSAJE ORIGINAL</h2>
+        <input id="mensaje" type="text">
+        <button onclick="cifrarMensaje()">CIFRAR</button>
+        <h2>MENSAJE CIFRADO</h2>
+        <input id="mensajeCifrado" disabled type="text">
+    </div>
+    
+    <div id="clave">
+        <h2>CLAVE</h2>
+        <input id="claveInput" type="text">
+        <button onclick="reiniciarFormulario()">REINICIAR</button>
+    </div>
+
+    <div id="mensaje-cifrado">
+        <h2>MENSAJE CIFRADO</h2>
+        <input id="mensaje2" type="text">
+        <button onclick="descifrarMensaje()">DESCIFRAR</button>
+        <h2>MENSAJE ORIGINAL</h2>
+        <input id="mensajeCifrado2" disabled type="text">
+    </div>
+    
+    <div id="introducciones">
+        <button type="button" onclick="mostrarIntroducciones()">INSTRUCTIVO</button>
+    </div>
+
+    <script src="./codigo.js"></script>
+</body>
+</html>

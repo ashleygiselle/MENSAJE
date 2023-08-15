@@ -1,0 +1,127 @@
+body {
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARwAAACxCAMAAAAh3/JWAAAAPFBMVEV4xda/YqZFm6h5wmfF1kf11j3yjDPoaKJhscBAmKx8xWF2wWiizFjI10bB1kj41jzzszjzjiXnZajUZaSIXFX5AAABD0lEQVR4nO3QNwGAQAAEsKf37t8rEo6BMZGQUrKxjqa5SZZ1a5P96KKzj657iJ4q+3AjR44cOXLkyJEjR44cOXLkyJEjR44cOXLkyJEjR44cOXLkyJEjR44cOXLkyJEjR44cOXLkyJEjR44cOXLkyJEjR44cOXLkyJEjR44cOXLkyJEjR44cOXLkyJEjR44cOXLkyJEjR44cOXLkyJEjR44cOXLkyJEjR44cOXLkyJEjR44cOXLkyJEjR44cOXLkyJEjR44cOXLkyJEjR44cOXLkyJEjR44cOXLkyJEjR44cOXLkyJEjR44cOXLkyJEjR44cOXLkyJEjR44cOXLkyJEjR44cOXLkyJEjR85vOS9NF/4z6CMcmAAAAABJRU5ErkJggg==");
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    margin-top: 150px;
+}
+
+h1 {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 55px;
+    text-transform: uppercase;
+    font-weight: 800;
+    text-shadow: 2px 5px  #3c93d0;
+    margin-top: -100px;
+    color:#2b00ff
+}
+
+#introducciones {
+    margin-left: 704px;
+    margin-top: -300px;
+}
+
+button {
+    background-color: #00ff08; 
+    padding: 6px 12px; 
+    border: none;
+    cursor: pointer;
+    font-size: 14px; 
+    border-radius: 4px; 
+    margin-top: 20px
+}
+
+
+#mensaje-original{
+    width: 350px;
+    margin-top: 100px;
+    background-color: rgb(161, 255, 178);
+    font-size: 15px; 
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 280px;
+    border-radius: 50px;
+
+}
+
+#mensaje-original button {
+    background-color: #00ff08; 
+    padding: 6px 12px; 
+    border: none;
+    cursor: pointer;
+    font-size: 14px; 
+    border-radius: 4px; 
+    margin-top: 20px;
+    
+}
+
+#mensaje-original input{
+    width: 300px;
+    padding: 10px; 
+    margin-top: 10px; 
+}
+
+
+#clave {
+    width: 180px;
+    margin-top: -220px;
+    background-color: rgb(161, 178, 255);
+    font-size: 15px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 666px;
+    border-radius: 100px;
+}
+
+#clave input {
+    width: 100px;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+#clave button {
+    background-color: rgb(76, 0, 255); 
+    padding: 6px 12px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 4px;
+    margin-top: 10px; 
+}
+
+#mensaje-cifrado{
+    width: 350px;
+    margin-top: -235px;
+    background-color: rgb(255, 86, 86);
+    font-size: 15px; 
+    border-radius: 4px; 
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 880px;
+    border-radius: 50px;
+
+}
+
+#mensaje-cifrado button {
+    background-color: #ff0000; 
+    padding: 6px 12px; 
+    border: none;
+    cursor: pointer;
+    font-size: 14px; 
+    border-radius: 4px; 
+    margin-top: 20px;
+    
+}
+
+#mensaje-cifrado input{
+    width: 300px;
+    padding: 10px; 
+    margin-top: 10px; 
+}
